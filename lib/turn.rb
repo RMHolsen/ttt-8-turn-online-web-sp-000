@@ -12,7 +12,7 @@ def input_to_index(input)
 end 
 
 def move(index, board, player = "X")
-  board[index] = player
+  board[index]
 end 
 
 def valid_move?(board, index)
