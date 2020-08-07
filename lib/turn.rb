@@ -16,6 +16,7 @@ def turn(board)
   else 
     puts "That is not a valid move. Please enter 1-9:"
   end
+  display_board(board)
 end
 
 def input_to_index(input)
